@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navbar renders correctly 1`] = `
+<header
+  class="flex bg-blue_header p-2 justify-between"
+>
+  <h1
+    class="font-normal"
+  >
+    Air Polution app
+  </h1>
+  <div
+    class="flex gap-3"
+  >
+    <img
+      alt="speak"
+      class="h-6"
+      src="https://api.iconify.design/carbon:microphone-filled.svg?color=%23ffffff"
+    />
+    <img
+      alt="settings"
+      class="h-6"
+      src="https://api.iconify.design/clarity:settings-solid.svg?color=%23ffffff"
+    />
+  </div>
+</header>
+`;
+
+exports[`Navbar renders correctly when pathname is / 1`] = `
+<header
+  class="flex bg-blue_header p-2 justify-between"
+>
+  <h1
+    class="font-normal"
+  >
+    Air Polution app
+  </h1>
+  <div
+    class="flex gap-3"
+  >
+    <img
+      alt="speak"
+      class="h-6"
+      src="https://api.iconify.design/carbon:microphone-filled.svg?color=%23ffffff"
+    />
+    <img
+      alt="settings"
+      class="h-6"
+      src="https://api.iconify.design/clarity:settings-solid.svg?color=%23ffffff"
+    />
+  </div>
+</header>
+`;
+
+exports[`Navbar renders correctly when pathname is /stats 1`] = `
+<header
+  class="flex bg-blue_header p-2 justify-between"
+>
+  <h1
+    class="font-normal"
+  >
+    Air Polution app
+  </h1>
+  <div
+    class="flex gap-3"
+  >
+    <img
+      alt="speak"
+      class="h-6"
+      src="https://api.iconify.design/carbon:microphone-filled.svg?color=%23ffffff"
+    />
+    <img
+      alt="settings"
+      class="h-6"
+      src="https://api.iconify.design/clarity:settings-solid.svg?color=%23ffffff"
+    />
+  </div>
+</header>
+`;
