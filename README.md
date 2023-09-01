@@ -52,13 +52,11 @@
 7- Linters
 8- Testing
 
-!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 
-
-- [Live Demo](https://react-capstone-project-g3s8.onrender.com)
+- [Live Demo]()
 - [Proyect Overview Video]()
 <!-- - No live demo available yet -->
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
