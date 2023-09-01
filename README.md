@@ -43,14 +43,14 @@
 
 ## 🛠 Built With <a name="built-with"></a>
 
-1- HTML
-2- CSS
-3- JaveScript
-4- React
-5- Tailwind
-6- Webpack
-7- Linters
-8- Testing
+1- ✅ HTML
+2- ✅ CSS
+3- ✅ JaveScript
+4- ✅ React
+5- ✅ Tailwind
+6- ✅ Webpack
+7- ✅ Linters
+8- ✅ Testing
 
 
 ## 🚀 Live Demo <a name="live-demo"></a>
@@ -82,8 +82,6 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
