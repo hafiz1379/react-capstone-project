@@ -1,5 +1,5 @@
 export const chartData = (infoArr) => ({
-  labels: ['CO', 'NH3', 'NO', 'NO2', 'O3', 'PM2_5', 'PM10', 'SO2'],
+  labels: ['CO', 'NH₃', 'NO', 'NO₂', 'O₃', 'PM₂.₅', 'PM₁₀', 'SO₂'],
   datasets: [
     {
       label: 'Quantity',
@@ -43,19 +43,19 @@ export const getDisplayName = (key) => {
     case 'co':
       return 'Carbon monoxide (CO)';
     case 'nh3':
-      return 'Ammonia (NH3)';
+      return 'Ammonia (NH₃)';
     case 'no':
       return 'Nitric oxide (NO)';
     case 'no2':
-      return 'Nitrogen dioxide (NO2)';
+      return 'Nitrogen dioxide (NO₂)';
     case 'o3':
-      return 'Ozone (O3)';
+      return 'Ozone (O₃)';
     case 'pm2_5':
-      return 'Fine particulate matter (PM2.5)';
+      return 'Fine particulate matter (PM₂.₅)';
     case 'pm10':
-      return 'Coarse particulate matter (PM10)';
+      return 'Coarse particulate matter (PM₁₀)';
     case 'so2':
-      return 'Sulfur dioxide (SO2)';
+      return 'Sulfur dioxide (SO₂)';
     default:
       return key;
   }
