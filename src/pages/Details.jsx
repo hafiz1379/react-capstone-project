@@ -7,6 +7,7 @@ import {
 import { useDispatch, useSelector } from 'react-redux';
 import { getInfo } from '../redux/airPolution/airPolutionSlice';
 import { chartData, getDisplayName } from '../utils/chartData';
+import Footer from '../footer/Footer';
 
 ChartJS.register(ArcElement, Tooltip, Legend);
 
@@ -34,7 +35,10 @@ const Details = () => {
         <div className="bg-[#35548B] p-2">
           <h4 className="uppercase">
             {country}
-            <span className="capitalize font-light ml-2"> air pollution ( μg/m3 ) stats</span>
+            <span className="capitalize font-light ml-2">
+              {' '}
+              air pollution ( μg/m3 ) stats
+            </span>
           </h4>
         </div>
         <div className="">
@@ -55,6 +59,7 @@ const Details = () => {
           <Doughnut data={chartData(infoArr)} />
         </div>
       </div>
+      <Footer />
     </div>
   );
 };
