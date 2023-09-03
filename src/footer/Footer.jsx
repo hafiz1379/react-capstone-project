@@ -9,25 +9,25 @@ function Footer() {
   return (
     <div>
       <div className="socials-layer bg-dodgerblue">
-        <a href="https://facebook.com/" target="_blank" rel="noreferrer">
+        <a href="https://www.facebook.com/Hafiz.Rasa79?mibextid=ZbWKwL" target="_blank" rel="noreferrer">
           <img width={30} height={30} loading="lazy" src={facebook} alt="" />
         </a>
         <a
-          href="https://twitter.com/Mahdi_Rezaei_AF"
+          href="https://twitter.com/Hafizrasa1379?s=35"
           target="_blank"
           rel="noreferrer"
         >
           <img width={30} height={30} loading="lazy" src={twitter} alt="" />
         </a>
         <a
-          href="https://www.linkedin.com/in/rezaei.mahdi"
+          href="https://www.linkedin.com/in/hafiz1379/"
           target="_blank"
           rel="noreferrer"
         >
           <img width={30} height={30} loading="lazy" src={linkedin} alt="" />
         </a>
         <a
-          href="https://github.com/MahdiSohaily"
+          href="https://github.com/hafiz1379"
           target="_blank"
           rel="noreferrer"
         >
