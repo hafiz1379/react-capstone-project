@@ -38,7 +38,7 @@ function Footer() {
         </a>
       </div>
       <div className="copyright bg-dodgerblue">
-        <h4 className="text-neutral-100">©Mahdi Rezaei - 2022</h4>
+        <h4 className="text-neutral-100">©Hafizullah Rasa - 2023</h4>
       </div>
     </div>
   );
