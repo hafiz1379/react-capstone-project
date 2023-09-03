@@ -9,7 +9,7 @@ function Footer() {
   return (
     <div>
       <div className="socials-layer bg-dodgerblue">
-        <a href="https://www.facebook.com/Hafiz.Rasa79?mibextid=ZbWKwL" target="_blank" rel="noreferrer">
+        <a href="https://www.facebook.com/" target="_blank" rel="noreferrer">
           <img width={30} height={30} loading="lazy" src={facebook} alt="" />
         </a>
         <a
