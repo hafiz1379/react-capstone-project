@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { NavLink } from 'react-router-dom';
 import { getCountries } from '../redux/countries/countriesSlice';
+import Footer from '../footer/Footer';
 
 const Home = () => {
   const dispatch = useDispatch();
@@ -24,7 +25,9 @@ const Home = () => {
   const getBackgroundColorClass = (index) => {
     const backgroundColorClasses = ['bg-[#4268B1]', 'bg-[#3E60A2]'];
     const row = Math.floor(index / 2);
-    return backgroundColorClasses[(index + row) % backgroundColorClasses.length];
+    return backgroundColorClasses[
+      (index + row) % backgroundColorClasses.length
+    ];
   };
 
   return (
@@ -43,17 +46,14 @@ const Home = () => {
         <h4 className="uppercase">Stats by country</h4>
       </div>
       <div className="grid grid-cols-2">
-        {status === 'loading' && (
-        <div
-          className="text-2xl p-5"
-        >
-          Loading...
-        </div>
-        )}
-        { filteredCountries.map(({
+        {status === 'loading' && <div className="text-2xl p-5">Loading...</div>}
+        {filteredCountries.map(({
           cca2, name, population, latlng,
         }, index) => (
-          <NavLink key={cca2} to={`${latlng}:${name.common}:${cca2.toLowerCase()}`}>
+          <NavLink
+            key={cca2}
+            to={`${latlng}:${name.common}:${cca2.toLowerCase()}`}
+          >
             <div
               className={`h-full w-full p-4 
           relative ${getBackgroundColorClass(index)}`}
@@ -81,6 +81,7 @@ const Home = () => {
         ))}
         {status === 'failed' && <div>{error}</div>}
       </div>
+      <Footer />
     </div>
   );
 };
