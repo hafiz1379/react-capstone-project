@@ -53,15 +53,15 @@
 8- ✅ **Testing**
 
 
-## 🚀 Live Demo <a name="live-demo"></a>
-
-
-- [Live Demo]()
-- [Proyect Overview Video]()
 <!-- - No live demo available yet -->
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 ### Tech Stack <a name="tech-stack"></a>
 
+## 🚀 Live Demo <a name="live-demo"></a>
+
+
+- [Live Demo](https://react-capstone-project-g3s8.onrender.com)
+- [presentation video](https://www.loom.com/share/0d84ae31d3ad47f182170341cbfdac3c?sid=fd74bc43-e546-4da5-b642-49a75467f572)
 >
 
 <details>
