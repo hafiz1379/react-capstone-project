@@ -7,7 +7,7 @@
   
   <br/>
 
-  <h3><b>Air Polution Tracker</b></h3>
+  <h3><b>Air Pollution Tracker</b></h3>
 
 </div>
 
@@ -37,9 +37,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Air Polution Tracker <a name="about-project"></a>
+# 📖 Air Pollution Tracker <a name="about-project"></a>
 
-> This Air Polution Tracker project using HTML, CSS, Tailwind, JavaScript and React.
+> This Air Pollution Tracker project using HTML, CSS, Tailwind, JavaScript and React.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -76,9 +76,9 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **Responsive**
-- **GitHub WorkFlow**
-- **Grid and Flexbox**
+- **Real-time Data: Get up-to-date air quality information for all countries, including essential pollutants such as Carbon Monoxide (CO), Nitric Oxide (NO), Nitrogen Dioxide (NO2), Ozone (O3), Sulfur Dioxide (SO2), Fine Particulate Matter (PM2.5), Coarse Particulate Matter (PM10), and Ammonia (NH3).**
+- **Responsive Design: Enjoy a seamless user experience on various devices, including smartphones, tablets, and desktops, thanks to the app's responsive design.**
+- **Navigate the app effortlessly with an intuitive and user-friendly interface that presents air quality data in a clear and organized manner.**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
