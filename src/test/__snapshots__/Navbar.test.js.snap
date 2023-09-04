@@ -7,7 +7,7 @@ exports[`Navbar renders correctly 1`] = `
   <h1
     class="font-normal"
   >
-    Air Polution app
+    Air Pollution app
   </h1>
   <div
     class="flex gap-3"
@@ -33,7 +33,7 @@ exports[`Navbar renders correctly when pathname is / 1`] = `
   <h1
     class="font-normal"
   >
-    Air Polution app
+    Air Pollution app
   </h1>
   <div
     class="flex gap-3"
@@ -59,7 +59,7 @@ exports[`Navbar renders correctly when pathname is /stats 1`] = `
   <h1
     class="font-normal"
   >
-    Air Polution app
+    Air Pollution app
   </h1>
   <div
     class="flex gap-3"

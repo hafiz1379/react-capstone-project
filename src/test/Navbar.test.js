@@ -16,7 +16,7 @@
 //     navigate(-1);
 //   };
 //   if (pathname === '/') {
-//     title = 'Air Polution app';
+//     title = 'Air Pollution app';
 //   } else if (pathname.startsWith('/') && pathname.split('/').length === 2) {
 //     title = 'Stats';
 //   }
@@ -52,7 +52,7 @@ describe('Navbar', () => {
       </Router>,
     );
 
-    const titleElement = screen.getByText(/Air Polution app/i);
+    const titleElement = screen.getByText(/Air Pollution app/i);
     expect(titleElement).toBeInTheDocument();
   });
 
