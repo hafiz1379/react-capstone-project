@@ -5,7 +5,7 @@ import {
   Chart as ChartJS, ArcElement, Tooltip, Legend,
 } from 'chart.js';
 import { useDispatch, useSelector } from 'react-redux';
-import { getInfo } from '../redux/airPolution/airPolutionSlice';
+import { getInfo } from '../redux/airPollution/airPollutionSlice';
 import { chartData, getDisplayName } from '../utils/chartData';
 import Footer from '../footer/Footer';
 

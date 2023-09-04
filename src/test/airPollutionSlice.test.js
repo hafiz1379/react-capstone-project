@@ -1,5 +1,5 @@
 import { configureStore } from '@reduxjs/toolkit';
-import airPolutionReducer, { getInfo } from '../redux/airPolution/airPolutionSlice';
+import airPollutionReducer, { getInfo } from '../redux/airPollution/airPollutionSlice';
 
 describe('Air Pollution Slice', () => {
   let store;
@@ -7,7 +7,7 @@ describe('Air Pollution Slice', () => {
   beforeEach(() => {
     store = configureStore({
       reducer: {
-        airPolution: airPolutionReducer,
+        airPollution: airPollutionReducer,
       },
     });
   });
@@ -24,7 +24,7 @@ describe('Air Pollution Slice', () => {
       so2: 0,
     };
 
-    const state = store.getState().airPolution;
+    const state = store.getState().airPollution;
 
     expect(state).toEqual(initialState);
   });
@@ -33,7 +33,7 @@ describe('Air Pollution Slice', () => {
     const coor = [40.0, -4.0];
     await store.dispatch(getInfo(coor));
 
-    const state = store.getState().airPolution;
+    const state = store.getState().airPollution;
 
     expect(state.co).toBeGreaterThanOrEqual(0);
     expect(state.nh3).toBeGreaterThanOrEqual(0);
@@ -66,7 +66,7 @@ describe('Air Pollution Slice', () => {
 
     await store.dispatch(getInfo(coor));
 
-    const state = store.getState().airPolution;
+    const state = store.getState().airPollution;
 
     expect(state).toEqual(mockData);
   });

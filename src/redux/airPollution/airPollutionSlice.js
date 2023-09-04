@@ -9,7 +9,7 @@ export const getInfo = createAsyncThunk(GET_INFO, async (coor) => {
   return result.list[0].components;
 });
 
-const airPolutionSlice = createSlice({
+const airPollutionSlice = createSlice({
   name: 'info',
   initialState: {
     co: 0,
@@ -27,4 +27,4 @@ const airPolutionSlice = createSlice({
   },
 });
 
-export default airPolutionSlice.reducer;
+export default airPollutionSlice.reducer;
