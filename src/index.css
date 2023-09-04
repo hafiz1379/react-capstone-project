@@ -1,0 +1,21 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+body {
+  color: #fff;
+  background-color: #35548b;
+}
+
+*,
+*::before,
+*::after {
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
+.map_svg {
+  filter: brightness(0) invert(20%) sepia(80%) hue-rotate(210deg);
+}
