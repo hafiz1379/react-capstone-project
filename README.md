@@ -172,9 +172,9 @@ If you like this project just give it a star.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microverse to have this opportunity, and also thank you the code review team. 
+- I would like to thank Microverse for giving me the opportunity to learn and grow as a developer.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+- Thanks to [Nelson Sakwa](https://www.behance.net/sakwadesignstudio) the [author of the original design] Under the [Creative Commons License](https://creativecommons.org/licenses/by-nc/4.0/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
