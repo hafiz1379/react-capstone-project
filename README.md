@@ -105,7 +105,7 @@ Run this command:
 
 ```sh
   cd my-folder
-  git clone https://hafiz1379.github.io/bookstore
+  git clone https://github.com/hafiz1379/react-capstone-project.git
 
 ### Install
 
@@ -117,15 +117,6 @@ Run command:
   cd my-project
   npm install
 ```
-
-### Usage
-
-To run the project, execute the following command:
-
-Open index.html using live server extension.
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
 
