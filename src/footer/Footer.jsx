@@ -10,31 +10,31 @@ function Footer() {
     <div>
       <div className="socials-layer bg-dodgerblue">
         <a href="https://www.facebook.com/" target="_blank" rel="noreferrer">
-          <img width={30} height={30} loading="lazy" src={facebook} alt="" />
+          <img width={30} height={30} loading="lazy" src={facebook} alt="Facebook" />
         </a>
         <a
           href="https://twitter.com/Hafizrasa1379?s=35"
           target="_blank"
           rel="noreferrer"
         >
-          <img width={30} height={30} loading="lazy" src={twitter} alt="" />
+          <img width={30} height={30} loading="lazy" src={twitter} alt="Twitter" />
         </a>
         <a
           href="https://www.linkedin.com/in/hafiz1379/"
           target="_blank"
           rel="noreferrer"
         >
-          <img width={30} height={30} loading="lazy" src={linkedin} alt="" />
+          <img width={30} height={30} loading="lazy" src={linkedin} alt="LinkedIn" />
         </a>
         <a
           href="https://github.com/hafiz1379"
           target="_blank"
           rel="noreferrer"
         >
-          <img width={30} height={30} loading="lazy" src={github} alt="" />
+          <img width={30} height={30} loading="lazy" src={github} alt="GitHub" />
         </a>
         <a href="https://instagram.com/" target="_blank" rel="noreferrer">
-          <img width={30} height={30} loading="lazy" src={instagram} alt="" />
+          <img width={30} height={30} loading="lazy" src={instagram} alt="Instagram" />
         </a>
       </div>
       <div className="copyright bg-dodgerblue">
