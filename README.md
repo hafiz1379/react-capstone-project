@@ -60,7 +60,7 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 
-- [Live Demo](https://react-capstone-project-g3s8.onrender.com)
+- [Live Demo](https://air-pollution-tracker.onrender.com/)
 >
 
 <details>
